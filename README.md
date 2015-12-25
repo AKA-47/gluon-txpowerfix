@@ -2,7 +2,7 @@
 
 GLUON_SITE_FEEDS="txpowerfix"<br>
 PACKAGES_txpowerfix_REPO=https://github.com/AKA-47/gluon-txpowerfix.git<br>
-PACKAGES_txpowerfix_COMMIT=5f8afcd89b902369be73f6b3a6e9a1d2b5c98dd8<br>
+PACKAGES_txpowerfix_COMMIT=5cdd02aaf23e12553ebcad39e5d39d2d5207956c<br>
 
 With this done you can add the package gluon-txpowerfix to your site.mk
 
