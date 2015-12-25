@@ -1,3 +1,7 @@
+# THIS IS A GLUON MODULE FOR FIXING SOME TXPOWER PROBLEM ON SPECIFIC DEVICES and 2015.2 GLUON
+
+in ChaosCalmer seems to be a bug which causes TXpower reduction. This is a temporary fix
+
 # Modules
 
 GLUON_SITE_FEEDS="txpowerfix"<br>
@@ -14,6 +18,5 @@ GLUON_SITE_PACKAGES := \
 
 
 
-THIS IS A GLUON MODULE FOR FIXING SOME TXPOWER PROBLEM ON SPECIFIC DEVICES and 2015.2 GLUON
 
 
