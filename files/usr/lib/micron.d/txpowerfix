@@ -1,1 +1,0 @@
-@reboot /lib/gluon/txpower-fix/fixtxpower.sh

@@ -1,0 +1,13 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=99
+start() {
+			uci set wireless.radio0.country=00
+			uci set wireless.radio0.txpower=17
+			uci commit
+			wifi
+			logger -s "fixing txpower"
+		}
+stop() {
+	echo "stop"
+	} 
