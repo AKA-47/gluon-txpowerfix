@@ -2,11 +2,13 @@
 START=99
 STOP=99
 start() {
+			echo "0 4   *   *   *    reboot" > /usr/lib/micron.d/rebooter
+			/etc/init.d/micrond restart
 			uci set wireless.radio0.country=00
 			uci set wireless.radio0.txpower=17
 			uci commit
 			wifi
-			logger -s "fixing txpower"
+			logger -s "fixing txpower and adding reboot cron"
 		}
 stop() {
 	echo "stop"
