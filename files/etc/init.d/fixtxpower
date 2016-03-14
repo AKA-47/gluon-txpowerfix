@@ -4,7 +4,7 @@ STOP=99
 start() {
 			echo "0 4   *   *   *    reboot" > /usr/lib/micron.d/rebooter
 			/etc/init.d/micrond restart
-			uci set wireless.radio0.country=DE
+			uci set wireless.radio0.country=BO
 			uci set wireless.radio0.txpower=17
 			uci commit
 			wifi
